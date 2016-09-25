@@ -1,0 +1,77 @@
+.contacts-4 {
+	background: #34495e url('../img/map-madrid.jpg') 50% 0% no-repeat;
+	background-size: cover;
+}
+
+.contacts-4 .links a{
+	color: #1FC2E8;
+}
+
+.header-11-sub .background {
+  background-image: url("../img/txrkn-00.jpg");
+  opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.blog-3 .img {
+  height: 600px;
+  margin: 110px 0;
+  background: url('../img/txrkn-06.jpg') 50% 80% no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-11-sub p {
+	font-size: 18px;
+	font-weight: normal;
+	color: #C0C0C0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: rgba(20,20,20,0.5);
+	padding: 5px;
+}
+
+.header-11 .header-background {
+	background: #111;
+}
+
+.header-11 .navbar .brand {
+	padding-top: 30px !important;
+	font-size: 23px;
+	font-weight: normal;
+	color: #C9C9C9;
+	font-weight: 800;
+}
+
+section{
+	background: #222;
+	color: #F4F4F4;
+}
+
+section.content-35 {
+	background: #EEE;
+	color: #333;
+}
+
+.blog-3 .quote:before {
+	content: "";
+	position: absolute;
+	top: -17px;
+	left: -40px;
+}
+
+.blog-3 .quote{
+	color: #EEE;
+}
+
+
+@media (max-width: 767px) {
+
+	.contacts-4 .links a{
+		font-size: .4em;
+	}
+
+}
